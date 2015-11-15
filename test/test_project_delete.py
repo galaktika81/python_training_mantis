@@ -2,6 +2,7 @@ from model.project import Project
 import random
 from generator.random import random_string
 
+
 def test_project_delete(app):
     app.session.login("administrator", "root")
     project = None
